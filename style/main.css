@@ -1,3 +1,11 @@
+
+@font-face {font-family: "Segoe Print"; src: url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.eot"); 
+                                        src: url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.eot?#iefix") format("embedded-opentype"), 
+                                            url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.woff2") format("woff2"), 
+                                            url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.woff") format("woff"), 
+                                            url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.ttf") format("truetype"), 
+                                            url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.svg#Segoe Print") format("svg"); }
+
 body {
     position: relative;
     height: 100vh;
@@ -8,18 +16,20 @@ body {
 }
 
 .navbar-nav{
-    font-family:'Segoe print',sans-serif;
+    font-family: 'Segoe Print', sans-serif;
     font-weight: 300;
 }
 .headline {
     font-family: 'Saira Stencil One', cursive;
     color: #FBAF31;
+    /* font-size: 48px; */
 }
 
 .countdown {
     font-family: 'Saira Stencil One', cursive;
     font-style: normal;
     font-weight: 400;
+    /* font-size: 64px; */
     line-height: 101px;
     display: flex;
     justify-content: center;
@@ -54,5 +64,5 @@ body {
 
 .col {
     color: #ffffff;
-    font-family:'Segoe print',sans-serif;
+    font-family:'Segoe Print',sans-serif;
 }
