@@ -1,0 +1,60 @@
+body {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(74.12deg, #1E2B32 45.39%, #2E3368 81.36%);
+    color: white;
+
+}
+
+.navbar-nav{
+    font-family:'Segoe print',sans-serif;
+    font-weight: 300;
+}
+.headline {
+    font-family: 'Saira Stencil One', cursive;
+    color: #FBAF31;
+    font-size: 48px;
+}
+
+.countdown {
+    font-family: 'Saira Stencil One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 101px;
+    display: flex;
+    justify-content: center;
+      
+}
+
+.time {
+    display: flex;
+    color: #FBAF31;
+}
+
+.desc {
+    display: flex;
+    color: #Ffffff;
+}
+
+.quote {
+    margin-top: 10%;
+    height:170px;
+    background: #FBAF31;
+    border-radius: 50px;
+    filter: blur(50px);
+}
+
+.quotes {
+    background: #1E2B32;
+    border-radius: 50px;
+    height:170px;
+    margin-top: -13%;
+    
+}
+
+.col {
+    color: #ffffff;
+    font-family:'Segoe print',sans-serif;
+}
