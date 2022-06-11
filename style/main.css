@@ -14,14 +14,12 @@ body {
 .headline {
     font-family: 'Saira Stencil One', cursive;
     color: #FBAF31;
-    font-size: 48px;
 }
 
 .countdown {
     font-family: 'Saira Stencil One', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
     line-height: 101px;
     display: flex;
     justify-content: center;
