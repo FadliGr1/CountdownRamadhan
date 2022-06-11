@@ -12,6 +12,7 @@ body {
     width: 100%;
     background-image: linear-gradient(74.12deg, #1E2B32 45.39%, #2E3368 81.36%);
     color: white;
+    align-items:center;
 
 }
 
@@ -65,4 +66,26 @@ body {
 .col {
     color: #ffffff;
     font-family:'Segoe Print',sans-serif;
+}
+
+/* Popup */
+.popup {
+  display: none;
+  position: relative;
+  background-color:#1f343f;
+  color:#ffffff;
+  border-radius:5px;
+  padding:20px;
+  z-index: 9;
+  font-family:'Segoe Print',sans-serif;
+  justify-content: center;
+  width:fit-content;
+}
+
+.close-button{
+  background: #FBAF31;
+  color:white;
+  border-radius:5px;
+  padding:10px;
+  border:none;
 }

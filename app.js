@@ -26,3 +26,12 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 1000)
 
+// Popup
+function openBox() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+//function to close popup
+function closeBox() {
+  document.getElementById("myForm").style.display = "none";
+}
