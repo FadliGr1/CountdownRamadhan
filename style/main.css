@@ -26,6 +26,7 @@ body {
     /* font-size: 48px; */
 }
 
+
 .countdown {
     font-family: 'Saira Stencil One', cursive;
     font-style: normal;
@@ -39,12 +40,12 @@ body {
 
 .time {
     display: flex;
-    color: #FBAF31;
+    color: #ffffff;
 }
 
 .desc {
     display: flex;
-    color: #Ffffff;
+    color: #FBAF31;
 }
 
 .quote {
@@ -88,4 +89,8 @@ body {
   border-radius:5px;
   padding:10px;
   border:none;
+}
+
+.carousel-control-next-icon {
+    color: #FBAF31;
 }

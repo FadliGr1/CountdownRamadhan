@@ -27,7 +27,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="openBox()">Belajar</a>
+                        <a class="nav-link" href="#" onclick="openBox()">Belajar</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" onclick="openBox()">Unik</a>
@@ -50,7 +50,7 @@
     </div>
     
     <!-- End Popup -->
-
+    <!-- Countdown -->
     <h1 class="headline mt-lg-5 text-center fs-2">Ramadhan.</h1>
     <div id="countdown" class="countdown fs-1">
         <div class="time me-1">
@@ -78,18 +78,36 @@
             <p> Detik</p>
         </div>
     </div>
+    <!-- End Countdown -->
+    
+
+    <!-- Quotes -->
     <div class="container-fluid justify-content-center">
         <div class="container quote">
         </div>
-        <div class="container quotes z-index-2 position-relative text-center align-self-center">
-            <div class="row align-items-center">
-                <div class="col mt-5">
-                    Semakin dilanjut semakin nyaman, kukira apa ternyata sujud <br>. . .
-                </div>
-                
+        <div id="carouselExampleControls" class="carousel slide container quotes z-index-2 position-relative text-center align-self-center" data-bs-ride="carousel">
+        <div class="carousel-inner row align-items-center">
+            <div class="carousel-item active col mt-5">
+                Semakin dilanjut semakin nyaman, kukira apa ternyata sujud <br>. . .
+            </div>
+            <div class="carousel-item col mt-5">
+                Semakin hari semakin dekat, kukira kamu ternyata bulan ramadhan<br>. . .
+            </div>
+            <div class="carousel-item col mt-5">
+                Salju adalah hadiah musim dingin, bunga adalah hadiah musim semi <br> dan ramadhan adalah kado terindah bagi orang beriman<br>. . .
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
     </div>
+    <!-- End Quotes -->
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
